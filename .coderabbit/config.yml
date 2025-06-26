@@ -1,0 +1,16 @@
+guidelines:
+    - "Ensure the app architecture follows Next.js conventions with clear separation of components, pages, hooks, and business logic."
+    - "Check for mobile-first design; layout should work well at 375x667px (iPhone SE)."
+    - "Code should be clean, readable, and maintainable."
+    - "Use meaningful and consistent naming conventions for variables and functions."
+    - "Avoid repetition — apply DRY (Don't Repeat Yourself) principles."
+    - "All code should reflect an understanding of the underlying logic and be explainable by the developer."
+    - "The app should be functional — test for broken or incomplete features."
+    - "Styled Components should be used for styling instead of plain CSS or inline styles."
+    - "Confirm the project is properly set up for Vercel deployment (e.g., correct Next.js config, no server-only features on client)."
+
+comment_style: balanced
+approve_condition:
+    - "No critical architectural issues or broken functionality."
+    - "Meets mobile responsiveness and styling guidelines."
+    - "Code is clean, DRY, and readable."
